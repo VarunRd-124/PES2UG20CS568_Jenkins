@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        ssh 'g++ sample.cpp -o new'
+        vrd12 'g++ sample.cpp -o new'
       }
     }
    
